@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Project Tasks</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Website Project Tasks</h1>
+    <div class="task-list">
+      <ul id="task-list">
+        <li class="category-heading">Design and Development</li>
+        <li>
+          <input type="checkbox" id="task1">
+          <label for="task1">Create wireframes for landing page</label>
+          <span class="task-details">Deadline: April 30th | Priority: High | Label: Design</span>
+          <button class="delete-btn">Delete</button>
+        </li>
+        <li>
+          <input type="checkbox" id="task2">
+          <label for="task2">Code HTML structure</label>
+          <span class="task-details">Deadline: May 5th | Priority: High | Label: Development</span>
+          <button class="delete-btn">Delete</button>
+        </li>
+        <!-- Add more tasks as needed -->
+      </ul>
+      <div class="add-task">
+        <input type="text" id="new-task" placeholder="Add new task">
+        <button id="add-btn">Add to List</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
